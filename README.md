@@ -6,7 +6,7 @@ Ethereum client.
 
 The code below connects on http://localhost:8545/ to show all transaction attributes received.
 
-``
+```java
 Web3j web3 = Web3j.build(new HttpService());
 
 web3.transactionObservable().subscribe(tx -> {
@@ -28,5 +28,5 @@ web3.transactionObservable().subscribe(tx -> {
     System.out.println("Transaction index " + tx.getTransactionIndex());
     System.out.println("Value " + tx.getValueRaw());
 });
-``
+```
 
