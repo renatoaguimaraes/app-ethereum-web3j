@@ -4,7 +4,7 @@ Ethereum client.
 
 ### Transacion listener example.
 
-The code below connects on http://localhost:8545/ to show all transaction attributes received.
+The code below connects on http://localhost:8545/ to show all transaction attributes received by local ethereum node.
 
 ```java
 Web3j web3 = Web3j.build(new HttpService());
